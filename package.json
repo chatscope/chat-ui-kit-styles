@@ -1,6 +1,6 @@
 {
   "name": "@chatscope/chat-ui-kit-styles",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "SCSS themes for @chatscope/chat-ui-kit-react library",
   "license": "MIT",
   "homepage": "https://chatscope.io/",
@@ -65,11 +65,19 @@
   "release": {
     "plugins": [
       [
-        "@semantic-release/commit-analyzer", {
+        "@semantic-release/commit-analyzer",
+        {
           "preset": "angular",
           "releaseRules": [
-            {"type": "docs", "scope": "readme", "release": "patch"},
-            {"scope": "no-release", "release": false}
+            {
+              "type": "docs",
+              "scope": "readme",
+              "release": "patch"
+            },
+            {
+              "scope": "no-release",
+              "release": false
+            }
           ]
         }
       ],

@@ -1,5 +1,7 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+## [1.0.1](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.0.0...v1.0.1) (2020-09-21)
+
 # 1.0.0 (2020-09-21)
 
 
