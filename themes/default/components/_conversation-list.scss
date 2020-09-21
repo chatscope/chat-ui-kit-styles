@@ -1,0 +1,20 @@
+@import "../variables";
+@import "../helpers/mixins";
+
+/********** Colors **********/
+
+/********** Fonts **********/
+
+/********** Styles **********/
+.#{$prefix}-conversation-list {
+  box-sizing: border-box;
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  color: $conversation-list-color;
+  background-color: $conversation-list-bg-color;
+
+  & > ul {
+    @include reset-list;
+  }
+}
