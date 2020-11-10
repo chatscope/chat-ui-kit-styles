@@ -18,6 +18,7 @@
     color: $search-color;
     border:none;
     width:100%;
+    min-width: 0; // FF fix
     outline:0;
     margin-right:0.5em;
     background-color:$search-input-bg-color;
