@@ -1,6 +1,6 @@
 {
   "name": "@chatscope/chat-ui-kit-styles",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "SCSS themes for @chatscope/chat-ui-kit-react library",
   "license": "MIT",
   "homepage": "https://chatscope.io/",

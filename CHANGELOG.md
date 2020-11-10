@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+## [1.0.4](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.0.3...v1.0.4) (2020-11-10)
+
+
+### Bug Fixes
+
+* **search:** search input container overflow in firefox ([ab20f73](https://github.com/chatscope/chat-ui-kit-styles/commit/ab20f73625ec0e2d8f2d42fafad62a1b141dce04))
+
 ## [1.0.3](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.0.2...v1.0.3) (2020-09-22)
 
 ## [1.0.2](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.0.1...v1.0.2) (2020-09-22)
