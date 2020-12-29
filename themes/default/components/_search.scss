@@ -11,6 +11,8 @@
   position: relative;
   border-radius: $search-border-radius;
   padding: 0.6em 0.9em;
+  font-size: $search-font-size;
+  font-family: $search-font-family;
   
   &__input {
     box-sizing: border-box;
@@ -22,6 +24,8 @@
     outline:0;
     margin-right:0.5em;
     background-color:$search-input-bg-color;
+    font-size: $search-input-font-size;
+    font-family: $search-input-font-family;
   }
 
   &__input:disabled {

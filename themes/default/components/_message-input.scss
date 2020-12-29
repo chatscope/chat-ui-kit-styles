@@ -35,6 +35,7 @@ $_message-input-content-editor-container-max-height: $message-input-max-lines * 
   box-sizing: border-box;
   padding: $message-input-padding;
   overflow: $_message-input-overflow;
+  flex-shrink: 0;
 
   &__content-editor-wrapper {
     box-sizing: border-box;  

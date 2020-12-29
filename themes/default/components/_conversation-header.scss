@@ -10,6 +10,7 @@
   background-color: $conversation-header-bg-color;
   font-family: $conversation-header-font-family;
   font-size: $conversation-header-font-size;
+  flex-shrink: 0;
   user-select: none;
   //box-shadow: 0px 2px 5px -2px rgba(0,0,0,0.38);
   
