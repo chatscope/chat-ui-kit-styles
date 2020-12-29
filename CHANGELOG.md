@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+## [1.0.6](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.0.5...v1.0.6) (2020-12-29)
+
+
+### Bug Fixes
+
+* **#1:** conversation header and message input shrink in safari ([489330a](https://github.com/chatscope/chat-ui-kit-styles/commit/489330aef183a269d45e9bd2fa6d8f09694c899e)), closes [#1](https://github.com/chatscope/chat-ui-kit-styles/issues/1)
+
 ## [1.0.5](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.0.4...v1.0.5) (2020-12-18)
 
 
