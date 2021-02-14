@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+# [1.1.0](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.0.6...v1.1.0) (2021-02-14)
+
+
+### Features
+
+* **conversation-list:** loading more in conversation list ([183d8f6](https://github.com/chatscope/chat-ui-kit-styles/commit/183d8f6ff400a8936e7a812c4627f65a21b7b4cc))
+
 ## [1.0.6](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.0.5...v1.0.6) (2020-12-29)
 
 
