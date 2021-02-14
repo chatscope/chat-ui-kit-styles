@@ -276,6 +276,13 @@ $conversation-header-actions-margin: 0 0 0 0.5em;
 // Colors
 $conversation-list-color: $color-text !default;
 $conversation-list-bg-color: transparent !default;
+$conversation-list-loading-more-bg-color: transparent !default;
+
+// Sizes
+$conversation-list-loading-more-height: 1.2em !default;
+
+// Spacing
+$conversation-list-loading-more-padding: 2px 0 !default;
 
 // Expansion panel
 //
@@ -650,7 +657,7 @@ $message-list-loading-more-height: 1.2em !default;
 
 // Spacing
 $message-list-scroll-wrapper-padding: 0 1.2em 0 0.8em !default;
-$message-list-loading-more-padding: 2px 0;
+$message-list-loading-more-padding: 2px 0 !default;
 $message-list-message-separator-margin-top: 1.2em !default;
 
 // Message separator
