@@ -104,8 +104,8 @@ $_message-avatar-offset: $message-avatar-width + $message-avatar-horizontal-marg
     padding: 0.6em 0.9em;
     border-radius: $message-content-border-radius;
     white-space: pre-wrap;
-    overflow-wrap: break-word;
-    word-break: break-all;
+    overflow-wrap: anywhere;
+    word-break: break-word; // break-word value is deprecated, but it's necessary for Safari
     font-family: $message-content-font-family;
     font-weight: $message-content-font-weight;
     font-size: $message-content-font-size;
