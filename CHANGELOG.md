@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+## [1.1.1](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.1.0...v1.1.1) (2021-02-24)
+
+
+### Bug Fixes
+
+* **#18:** wrapping words in message ([a3f93d1](https://github.com/chatscope/chat-ui-kit-styles/commit/a3f93d1798133f1d25adf8f9fcf03512fb1aebb1)), closes [#18](https://github.com/chatscope/chat-ui-kit-styles/issues/18)
+
 # [1.1.0](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.0.6...v1.1.0) (2021-02-14)
 
 
