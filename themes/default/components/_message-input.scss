@@ -86,8 +86,8 @@ $_message-input-content-editor-container-max-height: $message-input-max-lines * 
     border-left: $message-input-content-editor-border-left;
     overflow: $_message-input-content-editor-overflow;
     color: $message-input-content-editor-color;
-    overflow-wrap: break-word;
-    word-break: break-all;
+    overflow-wrap: anywhere;
+    word-break: break-word;
     #{$message-input-class}--disabled & {
       background-color: transparent; // Because bg color is from parent and we are using alpha
       color: $message-input-content-editor-disabled-color;
