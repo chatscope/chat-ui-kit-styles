@@ -103,6 +103,11 @@
       height:100%;
     }
     
+    &--bottom {
+      top:initial;
+      bottom:0;
+    }
+    
   }
   
   // Perfect scrollbar fix to hide loading more indicator
