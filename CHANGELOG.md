@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+# [1.2.0](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.1.2...v1.2.0) (2021-03-21)
+
+
+### Features
+
+* **message-list:** bottom modifier in loading more loader ([04a49f0](https://github.com/chatscope/chat-ui-kit-styles/commit/04a49f00f345ecec95a91ced14643322d415893a))
+
 ## [1.1.2](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.1.1...v1.1.2) (2021-02-26)
 
 
