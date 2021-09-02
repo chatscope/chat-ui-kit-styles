@@ -28,14 +28,14 @@ $default-font-family: Helvetica Neue, Segoe UI, Helvetica, Arial, sans-serif;
 // Colors
 //
 
-$color-primary: #c6e3fa;
-$color-primary-light: #f6fbff;
-$color-primary-dark: #6ea9d7;
-$color-primary-dark: #6EAAD8;
+$color-primary: #c6e3fa !default;
+$color-primary-light: #f6fbff !default;
+$color-primary-dark: #6ea9d7 !default;
+$color-primary-dark: #6EAAD8 !default;
 
-$color-secondary: #91ECEC;
-$color-secondary-light: #C2F9F9;
-$color-secondary-dark: #64D3D3;
+$color-secondary: #91ECEC !default;
+$color-secondary-light: #C2F9F9 !default;
+$color-secondary-dark: #64D3D3 !default;
 
 // Material text colors
 // http://marcodiiga.github.io/rgba-to-rgb-conversion
