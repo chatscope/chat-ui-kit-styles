@@ -2,7 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
-var sass = require('node-sass');
+var sass = require('sass');
 
 function writeOutput(error, result, outputFile ) {
     
