@@ -1,3 +1,4 @@
+@use "sass:math";
 @import "../variables";
 @import "../helpers/mixins";
 @import "../helpers/functions";
@@ -14,7 +15,7 @@ $_conversation-unread-right: 0.8em;
   box-sizing: border-box;
   position: relative;
   font-family: $conversation-font-family;
-  padding: $conversation-unread-font-size/2 + $_conversation-unread-top 0.8em $conversation-unread-font-size/2 + $_conversation-unread-top 0.8em;
+  padding:  math.div($conversation-unread-font-size,2) + $_conversation-unread-top 0.8em math.div($conversation-unread-font-size,2) + $_conversation-unread-top 0.8em;
   cursor: pointer;
   justify-content: flex-start;
   color: $conversation-color;

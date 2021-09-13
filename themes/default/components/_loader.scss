@@ -1,3 +1,4 @@
+@use "sass:math";
 @import "../variables";
 
 .#{$prefix}-loader {
@@ -16,7 +17,7 @@
     display:block;
     width: $loader-width;
     height: $loader-height;
-    margin: 0 0 0 ( $loader-width/2 * -1 ); // Center horizontally
+    margin: 0 0 0 ( math.div($loader-width, 2) * -1 ); // Center horizontally
   }
   
   // Background circle
