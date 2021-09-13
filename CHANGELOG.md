@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+## [1.2.2](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.1...v1.2.2) (2021-09-13)
+
+
+### Bug Fixes
+
+* remove deprecation warning and add possibility to override the base colors ([a737d4c](https://github.com/chatscope/chat-ui-kit-styles/commit/a737d4c0e836028f54bece59953f8455040833c1))
+
 ## [1.2.1](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.0...v1.2.1) (2021-09-13)
 
 
