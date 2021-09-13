@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+## [1.2.1](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.0...v1.2.1) (2021-09-13)
+
+
+### Bug Fixes
+
+* css property name typo ([8cb6332](https://github.com/chatscope/chat-ui-kit-styles/commit/8cb63327808e2400883460f5e5512900e195e577))
+
 # [1.2.0](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.1.2...v1.2.0) (2021-03-21)
 
 
