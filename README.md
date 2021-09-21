@@ -29,11 +29,14 @@ or check our friendly [Storybook](https://chatscope.io/storybook/react/).
 
 
 ## Community and support
+
 * Twitting via [@chatscope](https://twitter.com/chatscope)
 * Chatting at [Discord](https://discord.gg/TkUYWQRf2M)
 * Facebooking at [Facebook](https://www.facebook.com/chatscope)
+* Articles on the [chatscope blog](https://chatscope.io/blog/)
 
 ## Website
+
 [https://chatscope.io](https://chatscope.io)
 
 ## License
