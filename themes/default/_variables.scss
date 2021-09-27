@@ -78,8 +78,8 @@ $color-bg-disabled: rgba(0, 0, 0, .38) !default;
 // Functional colors
 //
 
-$color-danger: #ec1212;
-$color-error: $color-danger;
+$color-danger: #ec1212 !default;
+$color-error: $color-danger !default;
 
 // Border radius
 //
@@ -110,7 +110,7 @@ $avatar-fluid-width: 100% !default;
 // Sizes
 $avatar-group-xs-width: 16px !default;
 $avatar-group-sm-width: 32px !default;
-$avatar-group-md-width: 100%;
+$avatar-group-md-width: 100% !default;
 $avatar-group-lg-width: 80px !default;
 $avatar-group-fluid-width: 100% !default;
 
@@ -121,69 +121,69 @@ $avatar-group-md-min-width: 40px !default;
 // General button element and dedicated (function specific) buttons
 
 // Borders
-$button-border: solid 1px $default-border-color;
-$button-border-radius: $default-border-radius;
+$button-border: solid 1px $default-border-color !default;
+$button-border-radius: $default-border-radius !default;
 
 // Colors
-$button-color: $color-primary-dark;
-$button-bg-color: transparent;
+$button-color: $color-primary-dark !default;
+$button-bg-color: transparent !default;
 
 // Fonts
-$button-font-size: 1em;
-$button-line-height: 1.5;
+$button-font-size: 1em !default;
+$button-line-height: 1.5 !default;
 
 // Opacity
-$button-hover-opacity: 0.6;
+$button-hover-opacity: 0.6 !default;
 $button-disabled-opacity: $disabled-opacity !default;
 
 // Spacing
-$button-margin: 0.1em 0.2em;
-$button-padding: 0.2em 0.7em;
+$button-margin: 0.1em 0.2em !default;
+$button-padding: 0.2em 0.7em !default;
 
 // Add user button 
 
-$button-adduser-color: $button-color;
-$button-adduser-bg-color: $button-bg-color;
+$button-adduser-color: $button-color !default;
+$button-adduser-bg-color: $button-bg-color !default;
 
 // Arrow button
 
-$button-arrow-color: $button-color;
-$button-arrow-bg-color: $button-bg-color;
+$button-arrow-color: $button-color !default;
+$button-arrow-bg-color: $button-bg-color !default;
 
 // Ellipsis button
 
-$button-ellipis-color: $button-color;
-$button-ellipis-bg-color: $button-bg-color;
+$button-ellipis-color: $button-color !default;
+$button-ellipis-bg-color: $button-bg-color !default;
 
 // Info button
 
-$button-info-color: $button-color;
-$button-info-bg-color: $button-bg-color;
+$button-info-color: $button-color !default;
+$button-info-bg-color: $button-bg-color !default;
 
 // Star button
 
 $button-star-color: $button-color !default;
-$button-star-bg-color: $button-bg-color;
+$button-star-bg-color: $button-bg-color !default;
 
 // Video call button
 
-$button-videocall-color: $button-color;
-$button-videocall-bg-color: $button-bg-color; 
+$button-videocall-color: $button-color !default;
+$button-videocall-bg-color: $button-bg-color !default; 
 
 // Voice call button
 
-$button-voicecall-color: $button-color;
-$button-voicecall-bg-color: $button-bg-color;
+$button-voicecall-color: $button-color !default;
+$button-voicecall-bg-color: $button-bg-color !default;
 
 // Send button
 
-$button-send-color: $button-color;
-$button-send-bg-color: $button-bg-color;
+$button-send-color: $button-color !default;
+$button-send-bg-color: $button-bg-color !default;
 
 // Attachment button
 
-$button-attachment-color: $button-color;
-$button-attachment-bg-color: $button-bg-color;
+$button-attachment-color: $button-color !default;
+$button-attachment-bg-color: $button-bg-color !default;
 
 // Chat container
 //
@@ -231,11 +231,11 @@ $conversation-last-sender-name-font-weight: normal !default;
 $conversation-info-content-font-weight: normal !default;
 
 // Sizes
-$conversation-unread-dot-width: 0.7em;
+$conversation-unread-dot-width: 0.7em !default;
 
 // Spacing
-$conversation-operations-margin: 0 0 0 auto;
-$conversation-last-activity-time-margin: 0 0 0 auto;
+$conversation-operations-margin: 0 0 0 auto !default;
+$conversation-last-activity-time-margin: 0 0 0 auto !default;
 $chat-container-input-toolbox-margin: 0 !default;
 $chat-container-input-toolbox-padding: 0 0.8em 0.17em 0 !default;
 
@@ -268,7 +268,7 @@ $conversation-header-font-size: 1em !default;
 $conversation-header-content-min-width: 0 !default;
 
 // Spacing
-$conversation-header-actions-margin: 0 0 0 0.5em;
+$conversation-header-actions-margin: 0 0 0 0.5em !default;
 
 // Conversation list
 //
@@ -427,57 +427,46 @@ $message-border-radius: 0 !default;
 $message-incoming-single-border-radius: $message-border-radius !default;
 
 // Border radius for first incoming message
-$message-incoming-first-border-radius: $message-border-radius
-$message-border-radius $message-border-radius 0 !default;
+$message-incoming-first-border-radius: $message-border-radius $message-border-radius $message-border-radius 0 !default;
+
 // Border radius for last incoming message
-$message-incoming-last-border-radius: 0 $message-border-radius
-$message-border-radius $message-border-radius !default;
+$message-incoming-last-border-radius: 0 $message-border-radius $message-border-radius $message-border-radius !default;
 
 // Border radius for single outgoing message
 $message-outgoing-single-border-radius: $message-border-radius !default;
 
 // Border radius for first outgoing message
-$message-outgoing-first-border-radius: $message-border-radius
-$message-border-radius 0 $message-border-radius !default;
+$message-outgoing-first-border-radius: $message-border-radius $message-border-radius 0 $message-border-radius !default;
+
 // Border radius for last outgoing message
-$message-outgoing-last-border-radius: $message-border-radius
-$message-border-radius $message-border-radius $message-border-radius !default;
+$message-outgoing-last-border-radius: $message-border-radius $message-border-radius $message-border-radius $message-border-radius !default;
 
 // Border radius for content
-$message-content-border-radius: $message-base-radius $message-base-radius
-$message-base-radius $message-base-radius !default;
+$message-content-border-radius: $message-base-radius $message-base-radius $message-base-radius $message-base-radius !default;
 
 // Border radius for normal incoming message content
-$message-incoming-content-border-radius: 0 $message-base-radius
-$message-base-radius 0 !default;
+$message-incoming-content-border-radius: 0 $message-base-radius $message-base-radius 0 !default;
 
 // Border radius for single incoming message content
-$message-incoming-content-single-border-radius: 0 $message-base-radius
-$message-base-radius $message-base-radius !default;
+$message-incoming-content-single-border-radius: 0 $message-base-radius $message-base-radius $message-base-radius !default;
 
 // Border radius for first incoming message content
-$message-incoming-content-first-border-radius: 0 $message-base-radius
-$message-base-radius 0 !default;
+$message-incoming-content-first-border-radius: 0 $message-base-radius $message-base-radius 0 !default;
 
 // Border radius for last incoming message content
-$message-incoming-content-last-border-radius: 0 $message-base-radius 0
-$message-base-radius !default;
+$message-incoming-content-last-border-radius: 0 $message-base-radius 0 $message-base-radius !default;
 
 // Border radius for normal outgoing message content
-$message-outgoing-content-border-radius: $message-base-radius 0 0
-$message-base-radius !default;
+$message-outgoing-content-border-radius: $message-base-radius 0 0 $message-base-radius !default;
 
 // Border radius for single outgoing message content
-$message-outgoing-content-single-border-radius: $message-base-radius
-$message-base-radius 0 $message-base-radius !default;
+$message-outgoing-content-single-border-radius: $message-base-radius $message-base-radius 0 $message-base-radius !default;
 
 // Border radius for first outgoing message content
-$message-outgoing-content-first-border-radius: $message-base-radius 0 0
-$message-base-radius !default;
+$message-outgoing-content-first-border-radius: $message-base-radius 0 0 $message-base-radius !default;
 
 // Border radius for last outgoing message content
-$message-outgoing-content-last-border-radius: $message-base-radius 0
-$message-base-radius $message-base-radius !default;
+$message-outgoing-content-last-border-radius: $message-base-radius 0 $message-base-radius $message-base-radius !default;
 
 // Colors
 $message-color: $color-text !default;
@@ -520,18 +509,18 @@ $message-content-font-size: 0.91em !default;
 $message-content-font-variant: normal !default;
 
 // Sizes
-$message-avatar-width: 42px;
+$message-avatar-width: 42px !default;
 
 // Spacing
 $message-margin:0; // Default margin for message
-$message-only-child-margin: 0.2em 0 0 0;
-$message-not-only-child-margin: 0.2em 0 0 0;
+$message-only-child-margin: 0.2em 0 0 0 !default;
+$message-not-only-child-margin: 0.2em 0 0 0 !default;
 
-$message-header-margin: 0 0.2em 0.1em 0.2em;
-$message-footer-margin: 0.1em 0.2em 0 0.2em;
+$message-header-margin: 0 0.2em 0.1em 0.2em !default;
+$message-footer-margin: 0.1em 0.2em 0 0.2em !default;
 
-$message-content-margin-top: 0;
-$message-monologue-margin-top: 0.4em;
+$message-content-margin-top: 0 !default;
+$message-monologue-margin-top: 0.4em !default;
 
 $message-avatar-horizontal-margin: 8px !default; // Pixels because need to calculate with avatar width
 $message-avatar-margin: 0 $message-avatar-horizontal-margin 0 0 !default;
@@ -637,7 +626,7 @@ $message-input-content-editor-container-padding-top: 0em !default;     // These 
 $message-input-content-editor-container-padding-right: 0em !default;   // are used 
 $message-input-content-editor-container-padding-bottom: 0em !default;  // for some calculations
 $message-input-content-editor-container-padding-left: 0em !default;    // by _message-input.scss
-$message-input-content-editor-container-padding: $message-input-content-editor-container-padding-top $message-input-content-editor-container-padding-right $message-input-content-editor-container-padding-bottom $message-input-content-editor-container-padding-left;
+$message-input-content-editor-container-padding: $message-input-content-editor-container-padding-top $message-input-content-editor-container-padding-right $message-input-content-editor-container-padding-bottom $message-input-content-editor-container-padding-left !default;
 
 // !!! Be careful, when set this to unitless value - calculations below will not work properly
 // Also check if scroll is working properly after changing this value
@@ -675,8 +664,8 @@ $message-separator-content-bg-color: $message-separator-bg-color !default;
 $message-separator-line-color: $message-separator-color !default;
 
 // Spacing
-$message-separator-left-line-margin: 0 1em 0 0;
-$message-separator-right-line-margin: 0 0 0 1em;
+$message-separator-left-line-margin: 0 1em 0 0 !default;
+$message-separator-right-line-margin: 0 0 0 1em !default;
 
 // Overlay
 //
@@ -795,8 +784,8 @@ $typing-indicator-font-family: $default-font-family !default;
 $typing-indicator-font-size: inherit !default;
 
 // Sizes
-$typing-indicator-dot-size: 4px;
+$typing-indicator-dot-size: 4px !default;
 
 // Spacing
-$typing-indicator-dot-spacing: 3px;
-$typing-indicator-text-margin: 0 0 0 0.5em;
+$typing-indicator-dot-spacing: 3px !default;
+$typing-indicator-text-margin: 0 0 0 0.5em !default;
