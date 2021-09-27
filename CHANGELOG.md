@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+## [1.2.3](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.2...v1.2.3) (2021-09-27)
+
+
+### Bug Fixes
+
+* possibility to override the values of some variables ([da58c6d](https://github.com/chatscope/chat-ui-kit-styles/commit/da58c6dd32c44a8352831285badbe7a894581bba))
+
 ## [1.2.2](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.1...v1.2.2) (2021-09-13)
 
 
