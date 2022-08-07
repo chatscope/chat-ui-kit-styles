@@ -372,7 +372,7 @@ $main-container-color: $color-text !default;
 $main-container-bg-color: $default-bg-color !default;
 
 // Fonts
-$main-container-font-size: 1rem; // Font size for child elements are relative to this size
+$main-container-font-size: 1rem !default; // Font size for child elements are relative to this size
 
 // Sizes
 $main-container-conversation-list-flex-basis: 300px !default;
