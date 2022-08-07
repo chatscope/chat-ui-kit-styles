@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+## [1.2.4](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.3...v1.2.4) (2022-08-07)
+
+
+### Bug Fixes
+
+* allow $main-container-font-size value to be overridden ([f29426c](https://github.com/chatscope/chat-ui-kit-styles/commit/f29426c6067e30c09d71a240cee6e684fbdecc51))
+
 ## [1.2.3](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.2...v1.2.3) (2021-09-27)
 
 
