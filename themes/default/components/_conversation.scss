@@ -19,6 +19,7 @@ $_conversation-unread-right: 0.8em;
   cursor: pointer;
   justify-content: flex-start;
   color: $conversation-color;
+  background-color: $conversation-bg-color;
   user-select: none;
 
   &:hover {
