@@ -208,6 +208,20 @@ $chat-container-min-width: 180px !default;
 // Conversation
 //
 
+// Borders
+$conversation-border-top: 0 !default;
+$conversation-border-right: 0 !default;
+$conversation-border-bottom: 0 !default;
+$conversation-border-left: 0 !default;
+$conversation-active-border-top: 0 !default;
+$conversation-active-border-right: 0 !default;
+$conversation-active-border-bottom: 0 !default;
+$conversation-active-border-left: 0 !default;
+$conversation-activated-border-top: 0 !default;
+$conversation-activated-border-right: 0 !default;
+$conversation-activated-border-bottom: 0 !default;
+$conversation-activated-border-left: 0 !default;
+
 // Colors
 $conversation-color: $color-text !default;
 $conversation-bg-color: $default-bg-color !default;

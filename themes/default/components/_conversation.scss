@@ -21,6 +21,10 @@ $_conversation-unread-right: 0.8em;
   color: $conversation-color;
   background-color: $conversation-bg-color;
   user-select: none;
+  border-top: $conversation-border-top;
+  border-right: $conversation-border-right;
+  border-bottom: $conversation-border-bottom;
+  border-left: $conversation-border-left;
 
   &:hover {
     background-color: $conversation-hover-bg-color;
@@ -44,6 +48,10 @@ $_conversation-unread-right: 0.8em;
     
     color: $conversation-active-color;
     background-color: $conversation-active-bg-color;
+    border-top: $conversation-active-border-top;
+    border-right: $conversation-active-border-right;
+    border-bottom: $conversation-active-border-bottom;
+    border-left: $conversation-active-border-left;
     
     > .#{$prefix}-avatar {
       > .#{$prefix}-status {
@@ -60,6 +68,10 @@ $_conversation-unread-right: 0.8em;
     color: $conversation-name-activated-color;
     background-color: $conversation-activated-bg-color;
     font-weight: $conversation-activated-font-weight;
+    border-top: $conversation-activated-border-top;
+    border-right: $conversation-activated-border-right;
+    border-bottom: $conversation-activated-border-bottom;
+    border-left: $conversation-activated-border-left;
     
     > .#{$prefix}-avatar {
       > .#{$prefix}-status {
