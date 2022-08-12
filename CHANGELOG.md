@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+# [1.4.0](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.3.0...v1.4.0) (2022-08-12)
+
+
+### Features
+
+* **conversation:** added border variables ([209e21d](https://github.com/chatscope/chat-ui-kit-styles/commit/209e21d1eec70e4412129f54cae19e6a731546b4))
+
 # [1.3.0](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.5...v1.3.0) (2022-08-12)
 
 
