@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+# [1.3.0](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.5...v1.3.0) (2022-08-12)
+
+
+### Features
+
+* **conversation:** added font weight variables ([e47bf31](https://github.com/chatscope/chat-ui-kit-styles/commit/e47bf31f8f2d07604c05529a240b67e75c3bd9a2))
+
 ## [1.2.5](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.4...v1.2.5) (2022-08-12)
 
 
