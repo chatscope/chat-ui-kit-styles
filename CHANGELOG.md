@@ -1,5 +1,12 @@
 # @chatscope/chat-ui-kit-styles changelog
 
+## [1.2.5](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.4...v1.2.5) (2022-08-12)
+
+
+### Bug Fixes
+
+* **conversation:** background color value from variable ([d8eb556](https://github.com/chatscope/chat-ui-kit-styles/commit/d8eb55607dfa3339353c7f792813fa6aefbdda5f))
+
 ## [1.2.4](https://github.com/chatscope/chat-ui-kit-styles/compare/v1.2.3...v1.2.4) (2022-08-07)
 
 
