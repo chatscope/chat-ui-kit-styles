@@ -59,6 +59,7 @@ $_conversation-unread-right: 0.8em;
     
     color: $conversation-name-activated-color;
     background-color: $conversation-activated-bg-color;
+    font-weight: $conversation-activated-font-weight;
     
     > .#{$prefix}-avatar {
       > .#{$prefix}-status {
@@ -70,10 +71,12 @@ $_conversation-unread-right: 0.8em;
 
     #{$class-name}__name {
       color: $conversation-name-activated-color;
+      font-weight: $conversation-name-activated-font-weight;
     }
     
     #{$class-name}__info {
       color: $conversation-info-activated-color;
+      font-weight: $conversation-info-activated-font-weight;
     }
     
   }
